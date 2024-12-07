@@ -41,7 +41,7 @@ export default function Page() {
           Cahyadi
         </h1>
         <p className="mt-2 text-lg">Fullstack Developer 🚀</p>
-        <div className="my-3 flex gap-2">
+        <div className="my-3 flex flex-wrap justify-center gap-2">
           {SKILLS.map((skill, i) => (
             <Badge text={skill.text} key={i} />
           ))}
